@@ -24,5 +24,36 @@ p, h1, h2, h3, h4, h5, h6 {
 body {
     display: flex;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+}
+
+.side-photo {
+    width: 35vw;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsla(79, 100%, 0%, 50%);
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+
+    h1 {
+        font-size: 4.3rem;
+    }
+}
+
+img#logo {
+    width: 75px;
+    height: auto;
+}
+
+main {
+    width: 65vw;
 }
