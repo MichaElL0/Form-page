@@ -32,6 +32,10 @@ body {
     position: relative;
 }
 
+.side-photo img {
+    height: 100vh;
+}
+
 .header {
     display: flex;
     justify-content: center;
@@ -56,4 +60,36 @@ img#logo {
 
 main {
     width: 65vw;
+    height: 75vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: start;
+}
+
+.header-desc {
+    width: 75ch;
+    font-weight: 900;
+    padding: 0 3rem;
+}
+
+.header-desc h2:first-child {
+    padding-bottom: 2rem;
+}
+
+.sign-up {
+    padding: 0 3rem;
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+.account {
+    padding: 0 3rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
